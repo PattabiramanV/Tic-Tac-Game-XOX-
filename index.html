@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
    <div class="wrapper">
        <div class="container">
            <button class="button-option"></button>
@@ -27,8 +28,18 @@
        <p id="message">Sample Message</p>
        <button id="new-game" onclick="window.location.reload()">New Game</button>
    </div>
+
    
-    <!-- Script -->
+<!-- audiotag------- -->
+   <audio id="notificationSound">
+    <source src="tap-notification-180637.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+  <!-- colorpaper------------- -->
+  <canvas id="canvas"></canvas>
+
+
 
     <script src="index.js"></script>
 </body>
